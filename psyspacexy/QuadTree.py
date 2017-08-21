@@ -85,3 +85,6 @@ class QuadTree:
 
         initial_distance = tree.root.box.size.x + tree.root.box.size.y
         return tree._findNeighbourPoint(tree.root,newPoint,None,initial_distance)
+
+    # TODO findNNeighbourPoints
+    # TODO findRangeNeighboursPoints

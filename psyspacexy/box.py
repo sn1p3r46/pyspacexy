@@ -14,6 +14,7 @@ class Box:
         elif isinstance(point,tuple) and len(point)==2:
             return box._contains(point[0],point[1])
 
+    # TODO implement intersect method btw 2 boxes`
 
     def _contains(box,x:float,y:float):
 
