@@ -37,7 +37,7 @@ class Point:
         if self is None or other is None:
             return False
         return self.x == other.x and self.y == other.y
-        
+
 
     def __mul__(self,val):
         return Point(self.x*val,self.y*val)

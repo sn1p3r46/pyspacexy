@@ -14,7 +14,12 @@ class Box:
         elif isinstance(point,tuple) and len(point)==2:
             return box._contains(point[0],point[1])
 
-    # TODO implement intersect method btw 2 boxes`
+    # TODO implement intersect method btw 2 boxes
+
+    def intersects(self,other):
+        return  self.maxx() >= other.minx() and other.maxx() >= self.minx() and \
+                self.maxy() >= other.miny() and other.maxy() >= self.miny()
+
 
     def _contains(box,x:float,y:float):
 
@@ -66,6 +71,23 @@ class Box:
         quarter = self.size.quarter()
         half = self.size.half()
         return Box(Point(self.center.x - quarter.x, self.center.y - quarter.y), half)
+
+    def maxx(self):
+        """Returns the max x of the Box """
+        return self.center.x + self.size.half().x
+
+    def minx(self):
+        """Returns the min x of the Box """
+        return self.center.x - self.size.half().x
+
+    def maxy(self):
+        """Returns the max y of the Box """
+        return self.center.y + self.size.half().y
+
+    def miny(self):
+        """Returns the min y of the Box """
+        return self.center.y - self.size.half().y
+
 
 
     def __repr__(self):
