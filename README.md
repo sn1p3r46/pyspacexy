@@ -1,4 +1,4 @@
-# Python3 QuadTree Pre-Alpa
+# Python3 QuadTree Pre-Alpa 0.0.1
 
 QuadTree python implementation for two dimensions space search.
 
