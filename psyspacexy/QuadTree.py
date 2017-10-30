@@ -54,7 +54,7 @@ class QuadTree:
     def _findNeighbourPoint(self,node,nP,bestP,distBestP):
 
         dist = node.box.size.half()
-        if node.box.center.distancePoint(nP) - ((dist.x)**2+(dist.y)**2)**0.5 > distBestP:
+        if node.box.center.distancePoint(nP) - abs(((dist.x)**2+(dist.y)**2)**0.5) > distBestP:
             return bestP
 
         if (node.points):
@@ -87,4 +87,5 @@ class QuadTree:
         return tree._findNeighbourPoint(tree.root,newPoint,None,initial_distance)
 
     # TODO findNNeighbourPoints
-    # TODO findRangeNeighboursPoints
+
+    # TODO findNeighboursPoint

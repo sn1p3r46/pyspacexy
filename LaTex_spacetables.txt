@@ -1,0 +1,130 @@
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+\thead{File Name} & \thead{Size (MB)} \\ \hline
+
+crm\_20160915 & 234 MB \\ \hline
+crm\_20160916 & 234 MB \\ \hline
+crm\_20160917 & 233 MB \\ \hline
+crm\_20160918 & 234 MB \\ \hline
+crm\_20160919 & 234 MB \\ \hline
+crm\_20160920 & 233 MB \\ \hline
+crm\_20160921 & 234 MB \\ \hline
+crm\_20160922 & 234 MB \\ \hline
+crm\_20160923 & 234 MB \\ \hline
+crm\_20160924 & 234 MB \\ \hline
+crm\_20160925 & 234 MB \\ \hline
+crm\_20160926 & 234 MB \\ \hline
+crm\_20160927 & 234 MB \\ \hline
+crm\_20160928 & 234 MB \\ \hline
+crm\_20160929 & 234 MB \\ \hline
+crm\_20160930 & 234 MB \\ \hline
+crm\_20161001 & 234 MB \\ \hline
+crm\_20161002 & 234 MB \\ \hline
+crm\_20161003 & 234 MB \\ \hline
+crm\_20161004 & 234 MB \\ \hline
+crm\_20161005 & 234 MB \\ \hline
+crm\_20161006 & 234 MB \\ \hline
+crm\_20161007 & 234 MB \\ \hline
+crm\_20161008 & 234 MB \\ \hline
+crm\_20161009 & 234 MB \\ \hline
+crm\_20161010 & 234 MB \\ \hline
+crm\_20161011 & 234 MB \\ \hline
+crm\_20161012 & 234 MB \\ \hline
+crm\_20161013 & 234 MB \\ \hline
+crm\_20161014 & 234 MB \\ \hline
+crm\_20161015 & 234 MB \\ \hline`
+
+\end{tabular}
+\newline
+\caption{Size of CRM files (MB)}\label{msc:spacetable}
+\end{table}
+
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+\thead{File Name} & \thead{Size (MB)} \\ \hline
+
+msc\_T.20160915 & 2381 MB  \\ \hline
+msc\_T.20160916 & 2377 MB  \\ \hline
+msc\_T.20160917 & 1510 MB  \\ \hline
+msc\_T.20160918 & 1222 MB  \\ \hline
+msc\_T.20160919 & 2315 MB  \\ \hline
+msc\_T.20160920 & 2261 MB  \\ \hline
+msc\_T.20160921 & 2292 MB  \\ \hline
+msc\_T.20160922 & 2251 MB  \\ \hline
+msc\_T.20160923 & 2363 MB  \\ \hline
+msc\_T.20160924 & 1486 MB  \\ \hline
+msc\_T.20160925 & 1208 MB  \\ \hline
+msc\_T.20160926 & 2434 MB  \\ \hline
+msc\_T.20160927 & 2314 MB  \\ \hline
+msc\_T.20160928 & 2303 MB  \\ \hline
+msc\_T.20160929 & 2270 MB  \\ \hline
+msc\_T.20160930 & 2389 MB  \\ \hline
+msc\_T.20161001 & 1492 MB  \\ \hline
+msc\_T.20161002 & 1293 MB  \\ \hline
+msc\_T.20161003 & 2362 MB  \\ \hline
+msc\_T.20161004 & 2342 MB  \\ \hline
+msc\_T.20161005 & 2338 MB  \\ \hline
+msc\_T.20161006 & 2325 MB  \\ \hline
+msc\_T.20161007 & 2448 MB  \\ \hline
+msc\_T.20161008 & 1578 MB  \\ \hline
+msc\_T.20161009 & 1271 MB  \\ \hline
+msc\_T.20161010 & 2410 MB  \\ \hline
+msc\_T.20161011 & 2263 MB  \\ \hline
+msc\_T.20161012 & 2288 MB  \\ \hline
+msc\_T.20161013 & 2282 MB  \\ \hline
+msc\_T.20161014 & 2335 MB  \\ \hline
+msc\_T.20161015 & 1734 MB  \\ \hline
+
+\end{tabular}
+\newline
+\caption{Size of MSC files (MB)}\label{msc:spacetable}
+\end{table}
+
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+\thead{File Name} & \thead{Size (MB)} \\ \hline
+
+ngprs\_20160915 & 15492 MB \\ \hline
+ngprs\_20160916 & 16218 MB \\ \hline
+ngprs\_20160917 & 13516 MB \\ \hline
+ngprs\_20160918 & 11941 MB \\ \hline
+ngprs\_20160919 & 15260 MB \\ \hline
+ngprs\_20160920 & 15332 MB \\ \hline
+ngprs\_20160921 & 15070 MB \\ \hline
+ngprs\_20160922 & 15109 MB \\ \hline
+ngprs\_20160923 & 15346 MB \\ \hline
+ngprs\_20160924 & 12880 MB \\ \hline
+ngprs\_20160925 & 11371 MB \\ \hline
+ngprs\_20160926 & 14251 MB \\ \hline
+ngprs\_20160927 & 14261 MB \\ \hline
+ngprs\_20160928 & 14380 MB \\ \hline
+ngprs\_20160929 & 14529 MB \\ \hline
+ngprs\_20160930 & 15068 MB \\ \hline
+ngprs\_20161001 & 12828 MB \\ \hline
+ngprs\_20161002 & 11340 MB \\ \hline
+ngprs\_20161003 & 14386 MB \\ \hline
+ngprs\_20161004 & 14602 MB \\ \hline
+ngprs\_20161005 & 14725 MB \\ \hline
+ngprs\_20161006 & 14911 MB \\ \hline
+ngprs\_20161007 & 15415 MB \\ \hline
+ngprs\_20161008 & 13021 MB \\ \hline
+ngprs\_20161009 & 11328 MB \\ \hline
+ngprs\_20161010 & 14296 MB \\ \hline
+ngprs\_20161011 & 14586 MB \\ \hline
+ngprs\_20161012 & 15070 MB \\ \hline
+ngprs\_20161013 & 14989 MB \\ \hline
+ngprs\_20161014 & 15457 MB \\ \hline
+ngprs\_20161015 & 13677 MB \\ \hline
+
+\end{tabular}
+\newline
+\caption{Size of NGPRS files (MB)}\label{ngprs:spacetable}
+\end{table}

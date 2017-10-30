@@ -1,0 +1,130 @@
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+\thead{File Name} & \thead{Number of Subscription} \\ \hline
+
+crm\_20160915 & 5606287 \\ \hline
+crm\_20160916 & 5604649 \\ \hline
+crm\_20160917 & 5603908 \\ \hline
+crm\_20160918 & 5604849 \\ \hline
+crm\_20160919 & 5604829 \\ \hline
+crm\_20160920 & 5604263 \\ \hline
+crm\_20160921 & 5604279 \\ \hline
+crm\_20160922 & 5606520 \\ \hline
+crm\_20160923 & 5607272 \\ \hline
+crm\_20160924 & 5606615 \\ \hline
+crm\_20160925 & 5609192 \\ \hline
+crm\_20160926 & 5609193 \\ \hline
+crm\_20160927 & 5609133 \\ \hline
+crm\_20160928 & 5606724 \\ \hline
+crm\_20160929 & 5606593 \\ \hline
+crm\_20160930 & 5607163 \\ \hline
+crm\_20161001 & 5606894 \\ \hline
+crm\_20161002 & 5605676 \\ \hline
+crm\_20161003 & 5605396 \\ \hline
+crm\_20161004 & 5607755 \\ \hline
+crm\_20161005 & 5610963 \\ \hline
+crm\_20161006 & 5612214 \\ \hline
+crm\_20161007 & 5612221 \\ \hline
+crm\_20161008 & 5612176 \\ \hline
+crm\_20161009 & 5612007 \\ \hline
+crm\_20161010 & 5611825 \\ \hline
+crm\_20161011 & 5609780 \\ \hline
+crm\_20161012 & 5614661 \\ \hline
+crm\_20161013 & 5616341 \\ \hline
+crm\_20161014 & 5615248 \\ \hline
+crm\_20161015 & 5614380 \\ \hline
+
+\end{tabular}
+\newline
+\caption{CRM - Number of logs per file}\label{msc:spacetable}
+\end{table}
+
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+\thead{File Name} & \thead{Number of Logs} \\ \hline
+
+msc\_20160915 & 32.322.009 \\ \hline
+msc\_20160916 & 32.071.631 \\ \hline
+msc\_20160917 & 20.523.653 \\ \hline
+msc\_20160918 & 16.554.370 \\ \hline
+msc\_20160919 & 31.223.705 \\ \hline
+msc\_20160920 & 30.699.775 \\ \hline
+msc\_20160921 & 30.898.270 \\ \hline
+msc\_20160922 & 30.582.162 \\ \hline
+msc\_20160923 & 31.927.218 \\ \hline
+msc\_20160924 & 20.157.715 \\ \hline
+msc\_20160925 & 16.371.842 \\ \hline
+msc\_20160926 & 32.904.470 \\ \hline
+msc\_20160927 & 31.342.864 \\ \hline
+msc\_20160928 & 31.139.294 \\ \hline
+msc\_20160929 & 30.715.679 \\ \hline
+msc\_20160930 & 32.343.246 \\ \hline
+msc\_20161001 & 20.170.505 \\ \hline
+msc\_20161002 & 17.516.282 \\ \hline
+msc\_20161003 & 32.023.860 \\ \hline
+msc\_20161004 & 31.677.915 \\ \hline
+msc\_20161005 & 31.691.740 \\ \hline
+msc\_20161006 & 31.445.919 \\ \hline
+msc\_20161007 & 33.167.091 \\ \hline
+msc\_20161008 & 21.393.693 \\ \hline
+msc\_20161009 & 17.129.135 \\ \hline
+msc\_20161010 & 32.697.568 \\ \hline
+msc\_20161011 & 30.607.875 \\ \hline
+msc\_20161012 & 31.012.492 \\ \hline
+msc\_20161013 & 30.863.566 \\ \hline
+msc\_20161014 & 31.589.414 \\ \hline
+msc\_20161015 & 23.551.233 \\ \hline
+
+\end{tabular}
+\newline
+\caption{MSC - Number of logs per file}\label{msc:spacetable}
+\end{table}
+
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+\thead{File Name} & \thead{Number of Logs} \\ \hline
+
+ngprs\_20160915 & 200.481.896 \\ \hline
+ngprs\_20160916 & 209.846.749 \\ \hline
+ngprs\_20160917 & 175.247.554 \\ \hline
+ngprs\_20160918 & 154.912.227 \\ \hline
+ngprs\_20160919 & 197.542.920 \\ \hline
+ngprs\_20160920 & 198.589.583 \\ \hline
+ngprs\_20160921 & 195.186.950 \\ \hline
+ngprs\_20160922 & 195.684.992 \\ \hline
+ngprs\_20160923 & 198.868.669 \\ \hline
+ngprs\_20160924 & 167.326.442 \\ \hline
+ngprs\_20160925 & 147.854.951 \\ \hline
+ngprs\_20160926 & 184.870.141 \\ \hline
+ngprs\_20160927 & 184.987.337 \\ \hline
+ngprs\_20160928 & 186.549.796 \\ \hline
+ngprs\_20160929 & 188.476.745 \\ \hline
+ngprs\_20160930 & 195.436.279 \\ \hline
+ngprs\_20161001 & 166.649.923 \\ \hline
+ngprs\_20161002 & 147.448.188 \\ \hline
+ngprs\_20161003 & 186.684.693 \\ \hline
+ngprs\_20161004 & 189.522.102 \\ \hline
+ngprs\_20161005 & 191.101.557 \\ \hline
+ngprs\_20161006 & 193.500.215 \\ \hline
+ngprs\_20161007 & 199.970.865 \\ \hline
+ngprs\_20161008 & 169.183.219 \\ \hline
+ngprs\_20161009 & 147.292.943 \\ \hline
+ngprs\_20161010 & 185.573.325 \\ \hline
+ngprs\_20161011 & 189.287.809 \\ \hline
+ngprs\_20161012 & 195.457.206 \\ \hline
+ngprs\_20161013 & 194.332.921 \\ \hline
+ngprs\_20161014 & 200.351.695 \\ \hline
+ngprs\_20161015 & 177.472.802 \\ \hline
+
+\end{tabular}
+\newline
+\caption{NGPRS - Number of logs per file}\label{ngprs:spacetable}
+\end{table}

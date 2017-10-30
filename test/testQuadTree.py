@@ -5,6 +5,8 @@ from psyspacexy.point import Point
 from psyspacexy.QuadTree import QuadTree
 
 import unittest
+import random
+import sys
 
 class testQuadTree(unittest.TestCase):
 
@@ -14,9 +16,40 @@ class testQuadTree(unittest.TestCase):
         #self.pts = ([(1,1)])
 
     def test_QuadTree_constr(self):
-        self.tree = QuadTree(self.pts)
-        self.assertEqual(len(self.tree.pList),len(self.pts))
-        print(self.tree.findNeighbourPoint(Point(2,-2)))
+        tree = QuadTree(self.pts)
+        self.assertEqual(len(tree.pList),len(self.pts))
+        print(tree.findNeighbourPoint(Point(2,-2)))
+
+    def test_random(self):
+
+        low = -50
+        high = 50
+
+        for i in range(10):
+            myPoints = [(random.uniform(low, high), random.uniform(low, high)) for k in range(10000)]
+            tree = QuadTree(myPoints)
+            print (i)
+
+            for j in range(10000):
+                newPoint = Point(random.uniform(low, high), random.uniform(low, high))
+                #print(newPoint)
+                self.assertEqual(tree.findNeighbourPoint(newPoint),self.bruteforce_findNeighbourPoint(myPoints,newPoint))
+
+
+    def bruteforce_findNeighbourPoint(self,points,newPoint):
+
+        dist = float("inf")
+        res  = None
+
+        for i in points:
+            nd = newPoint.distance(i[0],i[1])
+            if nd <= dist:
+                dist = nd
+                res = i
+
+        return Point(res[0],res[1])
+
+
 
 
 if __name__ == '__main__':
